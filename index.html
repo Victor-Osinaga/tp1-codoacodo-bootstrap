@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>1-Bootstrap | Codo a Codo</title>
+</head>
+<body>
+    <nav style="z-index: 100;" class="w-100 navbar navbar-expand-lg bg-dark position-fixed">
+        <div class="container mx-auto d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+                <img style="width: 100px;" class=" " src="./images/codoacodo.png" alt="">
+            </a>
+            <a class="nav-link fw-bold text-light" href="#">Conf Bs As</a>
+          </div>
+          <div class="flex-grow-0 collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-end">
+              <a class="nav-link text-light active" aria-current="page" href="#">La conferencia</a>
+              <a class="nav-link text-muted" href="#">Los oradores</a>
+              <a class="nav-link text-muted" href="#">El lugar y la fecha</a>
+              <a class="nav-link text-muted" href="#">Conviertete en orador</a>
+              <a class="nav-link text-success" href="#">Comprar tickets</a>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+      <main class="position-relative min-vh-100">
+          <img style="object-fit: cover; z-index: -50;" class=" position-absolute w-100 h-100" src="./images/ba1.jpg" alt="Buenos Aires">
+
+          <div style="z-index: 50; --bs-bg-opacity: .5;" class="text-light position-absolute w-100 h-100 d-flex justify-content-end align-items-center p-5 text-end bg-dark fw-bold">
+            <div class="w-50">
+              <h2>Conf Bs As</h2>
+              <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+              <div>
+                <button type="button" class="btn btn-light fw-bold text-light bg-transparent">Quiero ser orador</button>
+                <button type="button" class="btn btn-success fw-bold">Comprar tickets</button>
+              </div>
+            </div>
+          </div>
+      </main>
+      <section class="w-75 mx-auto text-center pb-4 pt-4">
+        <h4 class="fs-6">CONOCE A LOS</h4>
+        <h2>ORADORES</h2>
+        <div class="row">
+          <div class="col-4">
+            <img class="w-100 h-50" style="object-fit: cover;" src="./images/steve.jpg" alt="Steve Jobs">
+            <div class="text-start p-3 border-bottom border-start border-end">
+              <span class="badge bg-warning">JavaScript</span>
+              <span class="badge bg-primary">React</span>
+              <h4>Steve Jobs</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus velit obcaecati, ipsa unde, porro vel dolorum dicta praesentium expedita ut eum soluta deleniti nobis illum quia rem culpa corrupti?</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <img class="w-100 h-50" style="object-fit: cover;" src="./images/bill2.jpg" alt="Bill Gates">
+            <div class="text-start p-3 border-bottom border-start border-end">
+              <span class="badge bg-warning">JavaScript</span>
+              <span class="badge bg-primary">React</span>
+              <h4>Bill Gates</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus velit obcaecati, ipsa unde, porro vel dolorum dicta praesentium expedita ut eum soluta deleniti nobis illum quia rem culpa corrupti?</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <img class="w-100 h-50" style="object-fit: cover;" src="./images/ada.jpeg" alt="Ada Lovelace">
+            <div class="text-start p-3 border-bottom border-start border-end">
+              <span class="badge bg-secondary">Negocios</span>
+              <span class="badge bg-danger">Startups</span>
+              <h4>Ada Lovelace</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, necessitatibus velit obcaecati, ipsa unde, porro vel dolorum dicta praesentium expedita ut eum soluta deleniti nobis illum quia rem culpa corrupti?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="m-0 p-0 pb-5 container-fluid row">
+        <div class="border col-6 p-0">
+          <img class="w-100 h-100" style="object-fit: contain;" src="./images/honolulu.jpg" alt="Honolulu">
+        </div>
+        <div class="p-3 border col-6 bg-dark text-white">
+          <h3>Bs As - Octubre</h3>
+          <p class="text-white-50 fw-bolder fs-6 text-justify text-left">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y condado de Honolulu han formado una ciudad-condado consolidad que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+          <button type="button" class="btn btn-secondary fw-bolder text-white-50 bg-transparent">Conocé más</button>
+        </div>
+      </section>
+
+      <section class="mx-auto text-center w-50 mb-4">
+        <h4 class="fs-6">CONVIERTETE EN UN</h4>
+        <h2>ORADOR</h2>
+        <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+        <div class="row g-2">
+          <div class="col-md">
+            <input type="email" class="text-muted form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+          </div>
+          <div class="col-md">
+              <input type="email" class="text-muted form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Apellido">
+          </div>
+          <div class="form-floating">
+              <textarea class="form-control" placeholder="Comentario" id="floatingTextarea" style="height: 100px; max-height: 100px; min-height: 100px"></textarea>
+              <label class="fs-5 text-muted" for="floatingTextarea">Sobre qué quieres hablar?</label>
+          </div>
+          <span class="text-start fs-6 text-secondary">Recuerda incluir un título para tu charla</span>
+          <button type="button" class="btn bg-success fw-bolder text-white" style="--bs-bg-opacity: .75;">Enviar</button>
+        </div>
+      </section>
+
+      <footer class="footer bg-primary">
+        <div class="w-75 pt-4 pb-4 mx-auto text-white d-flex align-items-center justify-content-between fw-bolder text-center" style="white-space: pre-line;">
+          <a class="nav-link" href="#">
+            Preguntas
+            frecuentes
+          </a>
+          <a class="nav-link" href="#">Contáctanos</a>
+          <a class="nav-link" href="#">Prensa</a>
+          <a class="nav-link" href="#">Conferencias</a>
+          <a class="nav-link" href="#">
+            Términos y
+            condiciones
+          </a>
+          <a class="nav-link" href="#">Privacidad</a>
+          <a class="nav-link" href="#">Estudiantes</a>
+        </div>
+      </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
